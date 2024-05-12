@@ -1,0 +1,284 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "Saurabh Srivastava",
+            "email": "saurass@gmail.com",
+            "user_type": "freelancer",
+            "phone_number": "+917835859500",
+            "country": "India",
+            "city": "Gorakhpur",
+            "profile_picture_url": null,
+            "created_at": "2024-05-12T00:31:18.890+05:30",
+            "updated_at": "2024-05-12T00:31:18.890+05:30",
+            "about": "I am a passionate and experienced software developer with expertise in Java, Python, and web development. I have a strong background in building scalable and efficient applications.",
+            "experiences": [
+                {
+                    "title": "Senior Software Engineer",
+                    "to_date": "2018-05-01",
+                    "employer": "Innovative Solutions Corp.",
+                    "from_date": "2017-05-01",
+                    "description": "Responsible for designing and implementing scalable solutions for various projects using Python, Django, and React."
+                },
+                {
+                    "title": "Frontend Developer",
+                    "to_date": "2017-04-30",
+                    "employer": "WebDev Co.",
+                    "from_date": "2015-02-15",
+                    "description": "Developed user interfaces and implemented features for web applications using Angular and TypeScript."
+                }
+            ],
+            "skills": [
+                "AngularJS",
+                "Python",
+                "Django"
+            ],
+            "pricing": {
+                "max": 450,
+                "min": 350
+            },
+            "social_links": {
+                "github": "https://github.com/alexjohnson",
+                "linkedin": "https://www.linkedin.com/alexjohnson",
+                "portfolio": "https://alexjohnsonportfolio.com"
+            },
+            "rating": {
+                "value": 3.0,
+                "overall_count": 2
+            },
+            "reviews": [
+                {
+                    "client_name": "Client Y",
+                    "review": "He did not complete the work on time, it was delayed by 2 weeks. Also the quality of the work done was not up to the expectations",
+                    "rating": 1.0
+                },
+                {
+                    "client_name": "Rahul Chauhan",
+                    "review": "He single handedly managed to migrate the entire legacy project",
+                    "rating": 5.0
+                }
+            ],
+            "jobs": {
+                "completed": [
+                    {
+                        "title": "Project A",
+                        "description": "Developed interactive user interfaces",
+                        "from_date": "2022-08-01T05:30:00.000+05:30",
+                        "to_date": "2022-10-28T05:30:00.000+05:30",
+                        "status": "completed",
+                        "client_name": "Client Y"
+                    },
+                    {
+                        "title": "Project Z",
+                        "description": "Migration of legacy Java application to microservices architecture.",
+                        "from_date": "2022-08-01T05:30:00.000+05:30",
+                        "to_date": "2022-10-28T05:30:00.000+05:30",
+                        "status": "completed",
+                        "client_name": "Rahul Chauhan"
+                    }
+                ],
+                "ongoing": [
+                    {
+                        "title": "Project X",
+                        "description": "Full-stack web application development using React and Next.js",
+                        "from_date": "2023-05-09T05:30:00.000+05:30",
+                        "to_date": "2023-05-25T05:30:00.000+05:30",
+                        "status": "ongoing",
+                        "client_name": "Rahul Chauhan"
+                    }
+                ],
+                "applied_jobs": [
+                    {
+                        "title": "Project Y",
+                        "description": "Project Y",
+                        "from_date": "2024-01-17T05:30:00.000+05:30",
+                        "to_date": "2024-01-25T05:30:00.000+05:30",
+                        "status": "pending",
+                        "client_name": "Rahul Chauhan"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 3,
+            "name": "Jane Smith",
+            "email": "janesmith@gmail.com",
+            "user_type": "freelancer",
+            "phone_number": "+917835859500",
+            "country": "United States",
+            "city": "San Francisco",
+            "profile_picture_url": null,
+            "created_at": "2024-05-12T00:31:18.890+05:30",
+            "updated_at": "2024-05-12T00:31:18.890+05:30",
+            "about": "I am a dedicated full-stack developer with a focus on JavaScript technologies. I have a passion for creating responsive and user-friendly web applications.",
+            "experiences": [
+                {
+                    "title": "Lead Full-Stack Developer",
+                    "to_date": "2023-09-30",
+                    "employer": "Tech Innovations LLC",
+                    "from_date": "2019-02-15",
+                    "description": "Led a team in developing and maintaining large-scale web applications using React and Node.js."
+                },
+                {
+                    "title": "Frontend Developer",
+                    "to_date": "2019-01-31",
+                    "employer": "WebTech Solutions Inc.",
+                    "from_date": "2016-07-01",
+                    "description": "Developed interactive user interfaces and optimized performance for various web applications."
+                }
+            ],
+            "skills": [
+                "React",
+                "GraphQL",
+                "CRM system"
+            ],
+            "pricing": {
+                "max": 600,
+                "min": 450
+            },
+            "social_links": {
+                "github": "https://github.com/janesmith",
+                "twitter": "https://twitter.com/janesmith",
+                "linkedin": "https://www.linkedin.com/janesmith",
+                "portfolio": "https://janesmithportfolio.com"
+            },
+            "rating": {
+                "value": 4.85,
+                "overall_count": 2
+            },
+            "reviews": [
+                {
+                    "client_name": "Client X",
+                    "review": "Jane is an outstanding developer. Her attention to detail and problem-solving skills are commendable.",
+                    "rating": 5.0
+                },
+                {
+                    "client_name": "Client X",
+                    "review": "Working with Jane was a pleasure. She consistently delivered high-quality work and exceeded our expectations",
+                    "rating": 4.7
+                }
+            ],
+            "jobs": {
+                "completed": [
+                    {
+                        "title": "Project C",
+                        "description": "Development of a custom CRM system for managing client relationships",
+                        "from_date": "2022-10-01T05:30:00.000+05:30",
+                        "to_date": "2023-03-31T05:30:00.000+05:30",
+                        "status": "completed",
+                        "client_name": "Client X"
+                    },
+                    {
+                        "title": "Project D",
+                        "description": "Migration of frontend application to React",
+                        "from_date": "2023-12-01T05:30:00.000+05:30",
+                        "to_date": "2024-01-01T05:30:00.000+05:30",
+                        "status": "completed",
+                        "client_name": "Client X"
+                    }
+                ],
+                "ongoing": [
+                    {
+                        "title": "Project B",
+                        "description": "Building a responsive e-commerce platform with React and GraphQL integration.",
+                        "from_date": "2024-05-10T05:30:00.000+05:30",
+                        "to_date": "2024-05-25T05:30:00.000+05:30",
+                        "status": "ongoing",
+                        "client_name": "Client X"
+                    }
+                ],
+                "applied_jobs": [
+                    {
+                        "title": "Project Y",
+                        "description": "Project Y",
+                        "from_date": "2024-01-17T05:30:00.000+05:30",
+                        "to_date": "2024-01-25T05:30:00.000+05:30",
+                        "status": "pending",
+                        "client_name": "Rahul Chauhan"
+                    }
+                ]
+            }
+        },
+        
+{
+    "id": 4,
+    "name": "Alex Johnson",
+    "email": "alex@gmail.com",
+    "user_type": "freelancer",
+    "phone_number": "+917835859500",
+    "country": "Canada",
+    "city": "Toronto",
+    "profile_picture_url": null,
+    "created_at": "2024-05-12T00:31:18.890+05:30",
+    "updated_at": "2024-05-12T00:31:18.890+05:30",
+    "about": "I am a versatile software engineer with a strong background in both backend and frontend development. I enjoy solving complex problems and learning new technologies.",
+    "experiences": [
+        {
+            "title": "Senior Software Engineer",
+            "to_date": null,
+            "employer": "Innovative Solutions Corp.",
+            "from_date": "2017-05-01",
+            "description": "Responsible for designing and implementing scalable solutions for various projects using Python, Django, and React."
+        },
+        {
+            "title": "Frontend Developer",
+            "to_date": "2017-04-30",
+            "employer": "WebDev Co.",
+            "from_date": "2015-02-15",
+            "description": "Developed user interfaces and implemented features for web applications using Angular and TypeScript."
+        }
+    ],
+    "skills": [
+        "AngularJS",
+        "Python",
+        "Django"
+    ],
+    "pricing": {
+        "max": 450,
+        "min": 350
+    },
+    "social_links": {
+        "github": "https://github.com/alexjohnson",
+        "linkedin": "https://www.linkedin.com/alexjohnson",
+        "portfolio": "https://alexjohnsonportfolio.com"
+    },
+    "rating": {
+        "value": 3.5,
+        "overall_count": 2
+    },
+    "reviews": [
+        {
+            "client_name": "Client X",
+            "review": "Alex did an okay job, but there were some issues with meeting deadlines and communication",
+            "rating": 3.5
+        },
+        {
+            "client_name": "Rahul Chauhan",
+            "review": "The quality of Alex's work was decent, but there were some bugs that needed to be addressed.",
+            "rating": 3.5
+        }
+    ],
+    "jobs": {
+        "completed": [
+            {
+                "title": "Project E",
+                "description": "Building a web-based inventory management system using Django and React.",
+                "from_date": "2024-02-01T05:30:00.000+05:30",
+                "to_date": "2024-03-01T05:30:00.000+05:30",
+                "status": "completed",
+                "client_name": "Client X"
+            },
+            {
+                "title": "Project F",
+                "description": "Developing a mobile app for event management on iOS and Android platforms.",
+                "from_date": "2024-04-10T05:30:00.000+05:30",
+                "to_date": "2024-04-15T05:30:00.000+05:30",
+                "status": "completed",
+                "client_name": "Rahul Chauhan"
+            }
+        ],
+        "applied_jobs": []
+    }
+}
+    ]
+}
