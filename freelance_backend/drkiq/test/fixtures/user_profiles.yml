@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  about: MyText
+  experiences: 
+  skills: 
+  pricing: 
+  social_links: 
+
+two:
+  user: two
+  about: MyText
+  experiences: 
+  skills: 
+  pricing: 
+  social_links: 

@@ -1,0 +1,2 @@
+json.extract! user, :id, :name, :email, :user_type, :phone_number, :country, :city, :profile_picture_url, :created_at, :updated_at
+json.partial! 'user_profiles/user_profile', user_profile: user.user_profile, user: user if user.freelancer?

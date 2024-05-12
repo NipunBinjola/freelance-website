@@ -1,0 +1,47 @@
+<%= form_with(model: user_profile) do |form| %>
+  <% if user_profile.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(user_profile.errors.count, "error") %> prohibited this user_profile from being saved:</h2>
+
+      <ul>
+        <% user_profile.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :user_id, style: "display: block" %>
+    <%= form.text_field :user_id %>
+  </div>
+
+  <div>
+    <%= form.label :about, style: "display: block" %>
+    <%= form.text_area :about %>
+  </div>
+
+  <div>
+    <%= form.label :experiences, style: "display: block" %>
+    <%= form.text_field :experiences %>
+  </div>
+
+  <div>
+    <%= form.label :skills, style: "display: block" %>
+    <%= form.text_field :skills %>
+  </div>
+
+  <div>
+    <%= form.label :pricing, style: "display: block" %>
+    <%= form.text_field :pricing %>
+  </div>
+
+  <div>
+    <%= form.label :social_links, style: "display: block" %>
+    <%= form.text_field :social_links %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
